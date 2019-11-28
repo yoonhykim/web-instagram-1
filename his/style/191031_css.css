@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    list-style: none;
+    font-style: none;
+}
+
+body {
+    background: #fafafa;
+    display: flex;
+    justify-content: center;
+}
+
+.feed_list {
+    width: 100%;
+    max-width: 600px;
+}
+
+.feed_layout {
+    border: 1px solid #d1ceda;
+    border-radius: 4px;
+    margin: 40px 0px;
+}
+
+.feed_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 16px;
+    border-bottom: #d1ceda;
+}
+
+.user_layout {
+    display: flex;
+    align-items: center;
+}
+
+.feed_user_profile_img {
+    margin-right: 12px;
+    border-radius: 100%;
+    width: 28px;
+    height: 28px;
+    background: url("https://miro.medium.com/max/1224/1*9aSeZirg0yCdpiyHqJZBwQ.jpeg") no-repeat;
+    background-size: cover;
+}
+
+.user_layout p {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.feed_content_body {
+    padding: 8px 16px 0px 16px;
+}
+
+.feed_body_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body_header_left_layout i {
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+.body_header_right_layout i {
+    font-size: 20px;
+}
+
+.like_layout {
+    padding: 12px 16px 0px 16px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.main_contents_layout {
+    padding: 12px 16px 0px 16px;
+}
+
+.user_contents_layout {
+    display: flex;
+}
+
+.user_id {
+    margin-right: 8px;
+    font-weight: 700;
+}
+
+.reply_counter {
+    margin-top: 4px;
+    color:#b1adbd;
+    font-weight: 500;
+
+}
+
+.reply_layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 16px 0px 16px;
+}
+
+
+.reply_body {
+    display: flex;
+}
+
+.reply_user_id {
+    margin-right: 8px;
+    font-weight: 700;
+}
+
+.reply_like_layout i {
+    color: #b1adbd;
+}
+
+.time_layout {
+    padding: 4px 16px 0px 16px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #b1adbd;
+}
+
+.replay_form {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    border-top: 1px solid #d1ceda;
+}
+
+.replay_form input {
+    font-size: 14px;
+    font-weight: 400;
+    width: 90%;
+    background: #fafafa;
+}
+
+.replay_form button {
+    font-size: 14px;
+    color: #d1ceda;
+    background: #fafafa;
+    
+}
+
+.replay_form button:active {
+    color: #3897f0;
+    background: #fafafa;
+}
+
+.replay_form button:disabled {
+    opacity: 0.3;
+}
