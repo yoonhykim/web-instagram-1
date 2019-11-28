@@ -1,0 +1,81 @@
+*{box-sizing:border-box;}
+  margin:0;
+  border:0;
+html, body {
+  }
+  body {
+    background: #f8f8f8;
+    display: flex;
+    justify-content: center;
+  }
+  .feed_list {
+    width: 100%;
+    max-width: 600px;
+    display:flex;
+    flex-direction:column;
+    border:1px solid gray;
+    border-radius:2px
+  }
+  .feed.layout{
+    border:1px solid gray;
+    border-radius:2px
+    margin: 20px 0;
+  }
+  .feed_header{
+    width:100%;
+    display:flex; 
+    justify-content:space-between;
+    align-items: center;
+    padding:10px;
+    border-bottom:1px solid gray;
+  }
+  .user_layout{
+    display:flex; 
+    align-items: center;
+  }
+  .feed_user_profile_img {
+      margin-right: 12px;
+      border-radius: 100%;
+      width: 40px;
+      height: 40px;
+      background: url("https://miro.medium.com/max/1224/1*9aSeZirg0yCdpiyHqJZBwQ.jpeg") no-repeat;
+      background-size: cover;
+  }
+  .user_layout p {
+      font-weight: 800;
+  }
+  .feed_body_header{
+    padding:10px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+  }
+
+  .body_header_left_layout i{
+      margin-right:10px;
+  }
+  .like_layout{ 
+    font-weight:bold;
+    padding:5px;}
+  .user_contents_layout {
+    margin-right:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .user_id{
+    font-weight:bold;
+    }
+  .reply_user_id{
+    font-weight:bold;
+  }
+  .reply_body{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right:10px
+  }
+  
+
